@@ -22,7 +22,7 @@ import com.twotoasters.jazzylistview.JazzyEffect;
 
 public class GrowEffect implements JazzyEffect {
 
-    private static final float INITIAL_SCALE_FACTOR = 0.01f;
+    private static final float INITIAL_SCALE_FACTOR = 0.9f;
 
     @Override
     public void initView(View item, int position, int scrollDirection) {
